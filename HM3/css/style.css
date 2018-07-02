@@ -25,29 +25,22 @@ li:hover {
 }
 
 div {
-	margin-top: 50px;
-	margin-bottom: auto;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-top: 30px; */
+	margin:30px auto;
+	/* margin-bottom: auto; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
 	width: 960px;
-	height: 560px;
-	padding: 30px;
 	border: 5px ridge;
 	background: white;
-}
-
-div img {
-	width: 100%;
+	display: flex;
 }
 
 div.first {
 	width: 440px;
-	height: 530px;
-	margin-top: 0;
-	margin-bottom: 20px;
 	padding: 10px;
 	border: 0;
-	float: left;
+	display: inline-block;
 }
 
 div.first img{
@@ -57,12 +50,9 @@ div.first img{
 
 div.second {
 	width: 440px;
-	height: 530px;
-	margin-top: 0;
-	margin-bottom: 20px;
 	padding: 10px;
 	border: 0;
-	float: right;
+	display: inline-block;
 }
 
 div.second img{
