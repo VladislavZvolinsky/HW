@@ -10,7 +10,8 @@
 body {
 	background-image: url(../img/page-bg.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+    background-size: 139%;
+    background-position: 76% 82%;
 }
 
 div.menu {
@@ -530,6 +531,7 @@ div.cities {
 }
 
 .seven-item {
+	padding-top: 1px;
 
 }
 
@@ -551,6 +553,7 @@ div.cities {
 	border-radius: 50%;
 	position: absolute;
 	left: -25px;
+	padding-top: 12px;
 }
 
 div.contacts {

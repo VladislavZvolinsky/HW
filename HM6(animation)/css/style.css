@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Dorsa');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+* {
+	margin: auto;
+}
+
+body {
+	background-image: url(../img/page-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.general {
+	background: #ffffff;
+	width: 300px;
+	margin: 100px auto 100px;
+	padding: 10px;
+	border: solid 2px grey;
+	border-radius: 3%;
+	box-shadow: 0 0 15px white;
+}
+
+.general:hover {
+	box-shadow: 0 0 30px red;
+}
+
+.img {
+	background: url(../img/bear.jpg) no-repeat 65%;
+	background: cover;
+	width: 280px;
+	padding-top: 350px;
+	margin: 0 auto;
+}
+
+.img:hover {
+	transform: rotate(5deg);
+	transition-duration: 0.2s;
+}
+.bear {
+	font-family: Pathway Gothic One;
+	font-size: 36px;
+	text-align: center;
+}
+
+.bear:hover {
+	transform: scale(1.15, 1.15);
+	color: #cafe69;
+	transition-duration: 0.2s, 3.3s;
+}
+.about {
+	font-size: 20px;
+	text-align: center;	
+}
+
+
+.like {
+	font-size: 30px;
+	margin: 10px 115px 10px;
+}
+
+.like:hover {
+	transform: scale(2, 1);
+	background: #afeefe;
+	transition-duration: 0.2s;
+}
