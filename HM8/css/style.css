@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Dorsa');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body {
+	background-image: url(../img/page-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.menu {
+	width: 225px;
+	margin: 20px auto 0;
+}
+
+.first-line {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.journey {
+	font-family: Dorsa;
+	font-size: 33.24px;
+	line-height: 75px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;
+	display: block;
+	background-color: #ffffff;
+	border-radius: 50%;
+	width: 75px;
+}
+
+.second-line {
+	width: 100%;
+	margin-top:27px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.third-line {
+	width: 100%;
+	margin-top: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.item {
+	font-family: Pathway Gothic One;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.item:hover {
+	color: #000000;
+}
+
+.general {
+	width: 480px;
+	margin: 60px auto 0;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
+
+.our-gallary {
+	width: 100%;
+	font-family: Pathway Gothic One;
+	font-size: 28px;
+	color: #000000;
+	text-transform: uppercase;
+	padding-left: 35px;
+	line-height: 151px;
+} 
+
+.image-1 {
+	background: url(../img/waterfall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 215px;
+	margin: 0 35px 40px;
+}
+
+.image-2 {
+	background: url(../img/lake-house.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 215px;
+	margin: 0 35px 40px;
+}
+.image-3 {
+	background: url(../img/hotel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 215px;
+	margin: 0 35px 40px;
+}
+
+.image-4 {
+	background: url(../img/colliseum.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 215px;
+	margin: 0 35px 40px;
+}
+
+.image-5 {
+	background: url(../img/island.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 215px;
+	margin: 0 35px 40px;
+}
+
+.image-6 {
+	background: url(../img/birds-and-snow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 215px;
+	margin: 0 35px 40px;
+}
+
+.contacts {
+	background-color: #30455b;
+	width: 480px;
+	margin: 0 auto;
+}
+
+.contacts-items {
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px 0 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.con {
+	width: 100px;
+	margin-top: 10px;
+	font-family: Open Sans Condensed;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.con:hover {
+	color: #000000;
+}
+
+.social-networks {
+	width: 480px;
+	margin: 0 auto;
+	padding: 28px 0 12px;
+	display: flex;
+	justify-content: center;
+}
+
+.social {
+	width: 130px;
+	display:flex;
+	justify-content: space-between;
+	
+}
+
+.twitter {
+	display:inline-block;
+	width: 25px;
+	padding-top: 25px;
+	border-radius: 50%;
+	background: #ffffff url(../img/twitter.png) 50% no-repeat;
+	background-size: 12px;
+}
+
+.facebook {
+	display:inline-block;
+	background: white;
+	width: 25px;
+	padding-top: 25px;
+	border-radius: 50%;
+	background: #ffffff url(../img/fb.png) 50% no-repeat;
+	background-size: 10px;
+}
+
+.google {
+	display:inline-block;
+	background: white;
+	width: 25px;
+	padding-top: 25px;
+	border-radius: 50%;
+	background: #ffffff url(../img/googleplus.png) 50% no-repeat;
+	background-size: 12px;
+}
+
+.linkin {
+	display:inline-block;
+	background: white;
+	width: 25px;
+	padding-top: 25px;
+	border-radius: 50%;
+	background: #ffffff url(../img/li.png) 50% no-repeat;
+	background-size: 12px;
+}
+
+p.j2013 {
+	font-size: 12px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #ffffff;
+	top: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	
+.menu {
+	width: 290px;
+	margin: 20px auto 0;
+}
+
+.first-line {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.journey {
+	font-family: Dorsa;
+	font-size: 43,6px;
+	line-height: 102px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;
+	display: block;
+	background-color: #ffffff;
+	border-radius: 50%;
+	width: 102px;
+}
+
+.second-line {
+	width: 100%;
+	margin-top:21px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.third-line {
+	width: 100%;
+	margin-top: 23px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.item {
+	font-family: Pathway Gothic One;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+	}
+
+.item:hover {
+	color: #000000;
+}
+
+.general {
+	width: 768px;
+	margin: 20px auto 0;
+	background-color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 35px;
+}
+
+.our-gallary {
+	width: 100%;
+	font-family: Pathway Gothic One;
+	font-size: 28px;
+	color: #000000;
+	text-transform: uppercase;
+	line-height: 115px;
+} 
+
+.image-1 {
+	background: url(../img/waterfall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 329px;
+	padding-top: 176px;
+}
+
+.image-2 {
+	background: url(../img/lake-house.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 329px;
+	padding-top: 176px;
+}
+
+.image-3 {
+	background: url(../img/hotel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 329px;
+	padding-top: 176px;
+}
+
+.image-4 {
+	background: url(../img/colliseum.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 329px;
+	padding-top: 176px;
+}
+
+.image-5 {
+	background: url(../img/island.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 329px;
+	padding-top: 176px;
+}
+
+.image-6 {
+	background: url(../img/birds-and-snow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 329px;
+	padding-top: 176px;
+}
+
+.image-7 {
+	background: url(../img/red-wall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 329px;
+	padding-top: 176px;
+}
+
+.image-8 {
+	background: url(../img/paris.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 329px;
+	padding-top: 176px;
+}
+
+}

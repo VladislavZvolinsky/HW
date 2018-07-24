@@ -48,7 +48,7 @@ body {
 .bear:hover {
 	transform: scale(1.15, 1.15);
 	color: #cafe69;
-	transition-duration: 0.2s, 3.3s;
+	transition: color 0.3s, text 0.2s;
 }
 .about {
 	font-size: 20px;
@@ -66,3 +66,7 @@ body {
 	background: #afeefe;
 	transition-duration: 0.2s;
 }
+
+/*не получилось:
+1. задать transition-duration для 2х эхлементов;
+2. задать положение для botton без margin-left.*/

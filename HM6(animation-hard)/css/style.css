@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Dorsa');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+.board {
+	width: 500px;
+	padding-top: 30px;
+	background-color: brown;
+	margin: 250px auto 300px;
+	border-radius: 2px;
+	position: relative;
+}
+
+.board:before {
+	content: "";
+	display: block;
+	width: 50px;
+	padding-top: 50px;
+	border-radius: 50%;
+	background-color: blue;
+	position: absolute;
+	bottom: 100%;
+	animation: slide 5s infinite;
+	transform: translate(0, 900%);
+}
+
+@keyframes slide {
+	0% {
+    transform: translateX(0);
+   }
+   50% {
+    transform: translateX(900%);
+   }
+   100% {
+    transform: translateX(0);
+   }
+}
